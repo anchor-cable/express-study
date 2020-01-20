@@ -16,6 +16,9 @@
     </profile>
     <version value="1.0" />
   </component>
+  <component name="JavaScriptLibraryMappings">
+    <includedPredefinedLibrary name="Node.js Core" />
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/express-study.iml" filepath="$PROJECT_DIR$/express-study.iml" />
@@ -23,6 +26,20 @@
   </component>
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectRunConfigurationManager">
+    <configuration default="false" name="bin/www" type="NodeJSConfigurationType" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="DEBUG" value="express-study:*" />
+      </envs>
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+        <browser url="http://localhost:3000/" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
   <component name="masterDetails">
     <states>
